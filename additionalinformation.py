@@ -1,4 +1,7 @@
-# Add caching for performance
+import streamlit as st  # <-- Intha line thaan missing!
+@st.cache_data
+def your_function_name():
+    # Unga code inga continue aagum...# Add caching for performance
 @st.cache_data
 def process_data_cached(df):
     engine = EnhancedGigWorkerRiskEngine(df)
